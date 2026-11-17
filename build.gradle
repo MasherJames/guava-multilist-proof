@@ -1,0 +1,15 @@
+plugins {
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation(
+      'commons-io:commons-io:2.20.0',
+      'com.google.guava:guava:33.6.0-jre',
+      'org.apache.commons:commons-lang3:3.19.0',
+  )
+}
